@@ -1,0 +1,7 @@
+[package]
+name = "telnet_pit"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+telnet_server = { git = "https://github.com/its-laika/telnet_server.git", version = "*" }

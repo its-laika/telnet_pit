@@ -1,0 +1,8 @@
+services:
+  telnet_pit:
+    image: ghcr.io/its-laika/telnet_pit:main
+    # build:
+    # Use this if you want to use your self built version.
+    #  context: .
+    expose:
+      - "23"
